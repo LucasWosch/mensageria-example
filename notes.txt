@@ -1,0 +1,8 @@
+bate na rota e api executa e retorna a resposta
+Enquanto a api está executando ela não retorna
+
+rabbitmq
+kafka
+sqms
+
+
