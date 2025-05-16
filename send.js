@@ -13,5 +13,6 @@ amqp.connect("amqp://localhost", (error, connection) => {
 
         channel.assertQueue(queue, {durable: false})
         channel.sendToQueue(queue, Buffer.from(msg))
+        console.log(`Sent ${msg}`)
     })
 })
